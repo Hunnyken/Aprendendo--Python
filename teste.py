@@ -2,9 +2,9 @@ trabalho = int(input('Qual a nota do trablaho?\nR:'))
 prova = int(input('Qual a nota da prova?\nR:'))
 media = (trabalho + prova) /2
 if(media <= 5):
-    print('REPROVaaaado')
+    print('REPROVADO')
 else:
-    print('provdo')
+    print('aprovado')
 
     
 
