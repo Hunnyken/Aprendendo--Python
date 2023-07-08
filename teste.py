@@ -7,7 +7,7 @@ else:
     print('aprovado')
 
     
-#alteração no código
+#alteração
     
 # operadores aritmeticos:
 # + - soma
