@@ -5,7 +5,7 @@ if pagamento == 'parcelado':
     x = int(input('Digite em quantas vezes deseja parcelar: '))
 
 print('PROCESSANDO...')
-time.sleep(2)
+time.sleep(1)
 
 if pagamento in ['cheque', 'dinheiro']:
     print('A sua compra saíra com desconto de 10%, de R${:.2f} foi para R${:.2f}.'.format(valor, valor - (valor * 0.1)))
