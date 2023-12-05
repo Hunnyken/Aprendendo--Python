@@ -5,11 +5,11 @@ def menu():
     octa = oct(n1)
     hexa = hex(n1)
     if n2 == 1:
-        print('O número {} convertido para binário será {}'.format(n1, binario[2::]))
+        print('O número {n1} convertido para binário será {binario[2::]}')
     elif n2 == 2:
-        print('O número {} convertido para octadecimal é {}'.format(n1, octa[2::]))
+        print('O número {n1} convertido para octadecimal é {octa[2::]}')
     elif n2 == 3:
-        print('O número {} convertido para octadecimal é {}'.format(n1, hexa[2::]))
+        print('O número {n1} convertido para octadecimal é {hexa[2::]}')
     print('')
 while True:
     menu()
