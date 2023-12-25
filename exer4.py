@@ -1,5 +1,5 @@
 n = int(input('Digite um numero para saber seu antecessor e seu sucessor:'))
-print('O sucessor de {} é {}, e seu antecessor é {}'.format(n, (n + 1), (n - 1)))
+print(f'O sucessor de {n} é {n + 1}, e seu antecessor é {n - 1}')
 
 
 #n = int(input('Digite um numero para sabermos seu sucessor e seu antecessor:'))
